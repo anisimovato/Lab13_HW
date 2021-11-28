@@ -73,36 +73,3 @@ namespace Lab13_HW
 //метод Print(), который обращается к методу Print() базового класса Building для вывода информации о всех полях класса.
 //Класс MultiBuilding сделать таким, что не может быть унаследован.
 
-//class Triangl
-//{
-//    public double A { get; set; }
-//    public double B { get; set; }
-//    public double C { get; set; }
-
-//    public Triangl()    //конструктор по умолчанию
-//    {
-//        // может ничего не делать или присваивать начальные значения
-//    }
-
-//    public Triangl(double a, double b, double c)     // конструктор не наследуется
-//    {
-//        A = a;
-//        B = b;
-//        C = c;
-//    }
-//    public double GetAria()
-//    {
-//        double p = (A + B + C) / 2;
-//        return Math.Sqrt(p * (p - A) * (p - B) * (p - C));
-//    }
-//}
-//class RectangularTriangl : Triangl //класс прямоуг треуг, является наследником класс треугольник
-//{
-//    public RectangularTriangl(double a, double b)
-
-//    {
-//        A = a;
-//        B = b;
-//        C = Math.Sqrt(a * a + b * b);
-//    }
-
